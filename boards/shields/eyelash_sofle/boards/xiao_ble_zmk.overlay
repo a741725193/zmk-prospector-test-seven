@@ -83,7 +83,7 @@ disp_spi: &spi3 {
     pinctrl-0 = <&spi3_default>;
     pinctrl-1 = <&spi3_sleep>;
     pinctrl-names = "default", "sleep";
-    cs-gpios = <&gpio1 06 GPIO_ACTIVE_LOW>;
+    cs-gpios = <&gpio1 6 GPIO_ACTIVE_LOW>;
 };
 
 / {
